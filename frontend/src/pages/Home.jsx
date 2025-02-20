@@ -1,7 +1,8 @@
-
+//this badboy shows up as "<Outlet />" in Router.jsx
 export default function Home() {
     return (
         <>
+        <p>Don't let the Bastards Get You Down</p>
      
         <ul className="articleBox">
         <article>

@@ -1,3 +1,4 @@
+// Ok, so in here, Outlet is basically Home.jsx.
 import Header from './Header'
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import Contact from '../pages/Contact';
@@ -10,7 +11,7 @@ export default function Router() {
         return (
           <>
             <Header />
-            <Outlet />
+            <Outlet /> 
           </>
         )
     }

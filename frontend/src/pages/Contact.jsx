@@ -18,16 +18,6 @@ export default function Contact() {
         }
     },[])
     
-    /*const fetchData = async(processing)  => {
-        await fetch('https://jsonplaceholder.typicode.com/users')
-        .then(res => res.json())
-        .then(data => {
-            if (processing) {
-                setSelectData(data)
-            }
-        })
-        .catch(err => console.log(err))
-    }*/
 
     const axiosFetchData = async(processing) => {
       
