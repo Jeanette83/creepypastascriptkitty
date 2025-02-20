@@ -5,8 +5,8 @@ const router = express.Router()
 const Post = require('../models/schemas');
 
 
-async function insertArticleData () {
-  Post.insert([
+function insertPostData () {
+  Post.insertMany([
     {
       image: "../images/runes.webp",
       title: "Be a Great Witch",
@@ -41,5 +41,5 @@ async function insertArticleData () {
 }
 
 
-insertArticleData(); 
+insertPostData(); 
 module.exports = router
