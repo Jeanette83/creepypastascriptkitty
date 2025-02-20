@@ -2,11 +2,11 @@
 const express = require('express')
 const router = express.Router()
 
-const Article = require('../models/schemas');
+const Post = require('../models/schemas');
 
 
 function insertArticleData () {
-  Article.insertMany ([
+  Post.insertMany ([
     {
       image: "../images/runes.webp",
       title: "Be a Great Witch",

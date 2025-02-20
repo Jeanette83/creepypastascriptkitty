@@ -9,7 +9,7 @@ const Schema = mongoose.Schema
     description: {type: String}
 })*/
 
-const articleSchema = new Schema ({
+const postSchema = new Schema ({
     image: {
         type: String
     },
@@ -22,7 +22,7 @@ const articleSchema = new Schema ({
     }
 });
 
-const Article = mongoose.model('Articles', articleSchema, 'articles')
-const mySchema = {'Article': Article}
+const Article = mongoose.model('Posts', postSchema, 'posts')
+const mySchema = {'Post': Post}
 
 module.exports = mySchema
