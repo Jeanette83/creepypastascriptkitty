@@ -5,7 +5,7 @@ const router = express.Router()
 const Post = require('../models/schemas');
 
 
-function insertArticleData () {
+async function insertArticleData () {
   Post.insert([
     {
       image: "../images/runes.webp",
