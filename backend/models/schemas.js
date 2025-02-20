@@ -22,7 +22,7 @@ const postSchema = new Schema ({
     }
 });
 
-const Article = mongoose.model('Posts', postSchema, 'posts')
+const Post = mongoose.model('Posts', postSchema, 'posts')
 const mySchema = {'Post': Post}
 
 module.exports = mySchema
