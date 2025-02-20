@@ -6,7 +6,7 @@ const Post = require('../models/schemas');
 
 
 function insertArticleData () {
-  Post.insertMany([
+  Post.insert([
     {
       image: "../images/runes.webp",
       title: "Be a Great Witch",
