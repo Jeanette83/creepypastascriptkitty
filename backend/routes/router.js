@@ -4,8 +4,17 @@ const router = express.Router()
 
 const Post = require('../models/schemas');
 
+router.get('', async(req,res) => {
+  try {
+    const data = await Post.find();
+    res.render('home', {data});
+  }
+  catch(error){
+    console.log(error)
+  }
+});
 
-function insertPostData () {
+/*function insertPostData () {
   Post.insertMany([
     {
       image: "../images/runes.webp",
@@ -41,5 +50,5 @@ function insertPostData () {
 }
 
 
-insertPostData(); 
+insertPostData(); */
 module.exports = router
