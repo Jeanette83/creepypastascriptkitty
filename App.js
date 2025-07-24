@@ -1,5 +1,5 @@
 
-//this one displays our frontend stuffs - the component it displays is Router, which in turn has
+//this one displays our frontend stuffs - the component it displays is Router..
 
 
 import './App.css';
