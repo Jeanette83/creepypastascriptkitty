@@ -14,6 +14,8 @@ router.get('', async(req,res) => {
   }
 });
 
+
+//this is how I added my post data to the MongoDb database
 /*function insertPostData () {
   Post.insertMany([
     {
