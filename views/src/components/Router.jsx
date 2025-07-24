@@ -24,12 +24,9 @@ export default function Router() {
                     <Route path="/" element={<Home />}  />
                     <Route path="Contact_Us" element={<Contact />}  />
                     <Route path="article/:id" element={<ArticleDetails />}  /> 
-                 
-                  
                   </Route>
                 </Routes>
               </BrowserRouter> 
-
         )
     }
     return (
