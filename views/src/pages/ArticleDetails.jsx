@@ -32,7 +32,6 @@ export default function ArticleDetails() {
 
     return (
         <>
- 
         {
             articleData != null ?
             <>
@@ -41,8 +40,6 @@ export default function ArticleDetails() {
                 <p>{articleData.description}</p>
             </>
             : ''
-
-
         }
         </>   
     )
