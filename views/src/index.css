@@ -4,7 +4,6 @@ ol[class] {
   list-style: none;
 }
 
-
 :root {
 
   --color-white: #fff;
@@ -105,8 +104,6 @@ ol[class] {
   list-style: none;
 }
 
-
-
 :root {
   --color-white: #fff;
   --color-grey-100: hsl(220, 20%, 10%, 5%);
@@ -152,11 +149,8 @@ ol[class] {
 .articleBox {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
-    
+    gap: 4rem;    
 }
-
-
 
 .articleBox img {
   width: 100%;
@@ -165,9 +159,8 @@ ol[class] {
 
 article {
   border: 1px solid #383838;
-  /*box-shadow: 6px 6px #F0F0F0;*/
-  
-  margin-top: 2rem;
+  /*box-shadow: 6px 6px #F0F0F0;*/  //might still do this style
+   margin-top: 2rem;
   background-color: var(--color-white);  
 }
 
@@ -179,10 +172,6 @@ article:hover {
 body {
   background: var(--color-bg);
 }
-
-
-
-
 
 /*******************  Contact Form *********************************************/
 
