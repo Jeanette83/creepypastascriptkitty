@@ -5,23 +5,7 @@ export default function Home() {
             <section>
                 <ul className="articleBox">
                 
-
-
-           
-
-
-                        
-                   
-      
-                </ul>
-            </section>
-        </>
-    )
-}
-
-
-/*
-   <article>
+                   <article>
             <img className="articleImage" src={require('../images/runes.webp')} alt="Witchy Runes"/>
             <a href="/article/143" className="articleLink">Be a good witch.</a>
             <p className='description/143'>I was walking thru the gas one day and then I saw the coolest bit of....</p>
@@ -53,4 +37,20 @@ export default function Home() {
             <p className='description'>Pippin likes this one in particular, her favorite is the one...</p>
         </article>
 
-        */
+
+           
+
+
+                        
+                   
+      
+                </ul>
+            </section>
+        </>
+    )
+}
+
+
+
+
+     
