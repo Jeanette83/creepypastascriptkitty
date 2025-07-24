@@ -1,6 +1,6 @@
 
-//this one displays our frontend shit - the component it displays is Router, which in turn has
-// within it the Header component, and Home (displayed as Outlet)
+//this one displays our frontend stuffs - the component it displays is Router, which in turn has
+
 
 import './App.css';
 import Router from './views/src/components/Router'
@@ -14,6 +14,4 @@ function App() {
  
   }
 ;
-
-
 export default App
